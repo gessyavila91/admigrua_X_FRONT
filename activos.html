@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Grúas 24-7 - Métricas</title>
+    <title>Grúas 24-7 - Servicios activos</title>
+    <meta charset="utf-8">
+    <meta name="description" content="El mejor servicio las 24 horas.">
+    <meta name="author" content="Grúas 24-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes">
+
+
+    <meta property="fb:app_id" content="1742442502693456"/>
+    <meta property="og:site_name" content="Grúas 24-7">
+    <meta property="og:url" content="https://gruas24-7.mx/">
+    <meta property="og:title" content="Grúas 24-7 | Grúas las 24 horas los 365 días del año.">
+    <meta property="og:description"
+          content="Grúas 24-7 es una empresa dedicada al traslado, asistencia y resguardo de vehículos en la Zona Metropolitana de Guadalajara.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://gruas24-7.mx/icon/socialbanner.png">
+    <meta property="og:image:width" content="">
+    <meta property="og:image:height" content="">
+
+    <link id="favicon" rel="shortcut icon" href="https://gruas24-7.mx/icon/FAV_128.png" sizes="16x16 32x32 48x48"
+          type="image/png"/>
+    <link rel="icon" type="image/x-icon" href="https://gruas24-7.mx/icon/FAV_128.png"/>
+    <link rel="icon" type="image/png" href="https://gruas24-7.mx/icon/FAV_128.png"/>
+    <link rel="icon" type="image/gif" href="https://gruas24-7.mx/icon/FAV_128.png"/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gruas4-7">
+    <meta name="twitter:title" content="Grúas 24-7">
+    <meta name="twitter:description" content="El mejor servicio las 24 horas los 365 días del año.">
+    <meta name="twitter:image" content="https://gruas24-7.mx/icon/icon.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://gruas24-7.mx/icon/ios-152.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://gruas24-7.mx/icon/ios-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://gruas24-7.mx/icon/ios-120.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://gruas24-7.mx/icon/ios-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://gruas24-7.mx/icon/ios-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="https://gruas24-7.mx/icon/ios-57.png"/>
+
+    <meta name="msapplication-TileColor" content="#FFFFFF"/>
+    <meta name="msapplication-TileImage" content="https://gruas24-7.mx/icon/icon.png"/>
+
 
     <!-- Custom fonts for this template-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"
@@ -20,7 +59,7 @@
             rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
 
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
@@ -376,23 +415,18 @@
             <!-- Begin Page Content -->
             <div class="container-fluid">
                 <!-- Page Heading -->
-                <h1 class="h3 mb-2 text-gray-800">Tables</h1>
-                <p class="mb-4">DataTables is a third party plugin that is used to generate the demo table below.
-                    For more information about DataTables, please visit the <a target="_blank"
-                                                                               href="https://datatables.net">official
-                        DataTables documentation</a>.</p>
 
                 <!-- DataTales Example -->
                 <div class="card shadow mb-4">
                     <div class="card-header py-3">
-                        <h6 class="m-0 font-weight-bold text-primary">Servicios Activos</h6>
+                        <h6 class="m-0 font-weight-bold text-dark">Servicios Activos</h6>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
                             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                 <thead>
                                 <tr>
-                                    <th class="bg-gradient-warning">Estatus</th>
+                                    <th>Estatus</th>
                                     <th>ID</th>
                                     <th>Cliente</th>
                                     <th>Unidad</th>
@@ -417,12 +451,7 @@
                                 </tfoot>
                                 <tbody>
                                 <tr>
-                                    <td><select class="form-control form-control-user">
-                                        <option>Capturado</option>
-                                        <option>Progreso</option>
-                                        <option>Contacto</option>
-                                        <option>Término</option>
-                                    </select></td>
+                                    <td><div class="btn btn-success">Capturado</div></td>
                                     <td>15968</td>
                                     <td>AFIRME</td>
                                     <td>G3</td>

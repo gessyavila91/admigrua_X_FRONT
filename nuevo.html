@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Grúas 24-7 - Métricas</title>
+    <title>Grúas 24-7 - Capturar Servicio</title>
+    <meta charset="utf-8">
+    <meta name="description" content="El mejor servicio las 24 horas.">
+    <meta name="author" content="Grúas 24-7">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="mobile-web-app-capable" content="yes">
+
+
+    <meta property="fb:app_id" content="1742442502693456"/>
+    <meta property="og:site_name" content="Grúas 24-7">
+    <meta property="og:url" content="https://gruas24-7.mx/">
+    <meta property="og:title" content="Grúas 24-7 | Grúas las 24 horas los 365 días del año.">
+    <meta property="og:description"
+          content="Grúas 24-7 es una empresa dedicada al traslado, asistencia y resguardo de vehículos en la Zona Metropolitana de Guadalajara.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://gruas24-7.mx/icon/socialbanner.png">
+    <meta property="og:image:width" content="">
+    <meta property="og:image:height" content="">
+
+    <link id="favicon" rel="shortcut icon" href="https://gruas24-7.mx/icon/FAV_128.png" sizes="16x16 32x32 48x48"
+          type="image/png"/>
+    <link rel="icon" type="image/x-icon" href="https://gruas24-7.mx/icon/FAV_128.png"/>
+    <link rel="icon" type="image/png" href="https://gruas24-7.mx/icon/FAV_128.png"/>
+    <link rel="icon" type="image/gif" href="https://gruas24-7.mx/icon/FAV_128.png"/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@gruas4-7">
+    <meta name="twitter:title" content="Grúas 24-7">
+    <meta name="twitter:description" content="El mejor servicio las 24 horas los 365 días del año.">
+    <meta name="twitter:image" content="https://gruas24-7.mx/icon/icon.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://gruas24-7.mx/icon/ios-152.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://gruas24-7.mx/icon/ios-144.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://gruas24-7.mx/icon/ios-120.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://gruas24-7.mx/icon/ios-114.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://gruas24-7.mx/icon/ios-72.png"/>
+    <link rel="apple-touch-icon-precomposed" href="https://gruas24-7.mx/icon/ios-57.png"/>
+
+    <meta name="msapplication-TileColor" content="#FFFFFF"/>
+    <meta name="msapplication-TileImage" content="https://gruas24-7.mx/icon/icon.png"/>
+
 
     <!-- Custom fonts for this template-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"
@@ -20,7 +59,7 @@
             rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="css/sb-admin-2.css" rel="stylesheet">
 
 </head>
 
@@ -29,7 +68,7 @@
 <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-dark sidebar sidebar-dark accordion" id="accordionSidebar">
 
         <!-- Sidebar - Brand -->
         <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -53,12 +92,12 @@
         <hr class="sidebar-divider">
 
 
-        <a class="btn btn-success btn-sm" href="nuevo.html">Agregar Servicio</a>
+        <a class="btn btn-orange btn-sm" href="nuevo.html">Capturar Servicio</a>
         <hr class="sidebar-divider">
 
         <!-- Heading -->
         <div class="sidebar-heading ">
-            Interface
+            Menú
         </div>
 
         <!-- Nav Item - Pages Collapse Menu -->
@@ -131,7 +170,8 @@
                 <i class="fas fa-fw fa-folder"></i>
                 <span>Componentes</span>
             </a>
-            <div id="collapseComponentes" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div id="collapseComponentes" class="collapse" aria-labelledby="headingPages"
+                 data-parent="#accordionSidebar">
                 <div class="bg-white py-2 collapse-inner rounded">
                     <h6 class="collapse-header">Login Screens:</h6>
                     <a class="collapse-item" href="login.html">Login</a>
@@ -170,7 +210,17 @@
         <div class="sidebar-card d-none d-lg-flex">
             <img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
             <p class="text-center mb-2"><strong>No hay servicios</strong> en lista</p>
-            <a class="btn btn-success btn-sm" href="#">Agrega un Servicio</a>
+            <a class="btn btn-orange btn-sm" href="nuevo.html">Capturar Servicio</a>
+        </div>
+        <div class="sidebar-card d-flex flex-column">
+            <p class="text-center mb-2"><strong>Servicios en la lista:</strong></p>
+            <a class="nav-link" href="#"><p class="text-left mb-2"><span
+                    class="badge badge-pill badge-danger m-1">1234</span>MAS ASISTENCIA FORD</p></a>
+            <a class="nav-link" href="#"><p class="text-left mb-2"><span
+                    class="badge badge-pill badge-warning m-1">1234</span>AFIRME NISSAN</p></a>
+            <a class="nav-link" href="#"><p class="text-left mb-2"><span
+                    class="badge badge-pill badge-success m-1">1234</span>ANA SEGUROS TOYOTA</p></a>
+
         </div>
 
     </ul>
@@ -304,7 +354,8 @@
                                 </div>
                                 <div class="font-weight-bold">
                                     <div class="text-truncate">Hi there! I am wondering if you can help me with a
-                                        problem I've been having.</div>
+                                        problem I've been having.
+                                    </div>
                                     <div class="small text-gray-500">Emily Fowler · 58m</div>
                                 </div>
                             </a>
@@ -316,7 +367,8 @@
                                 </div>
                                 <div>
                                     <div class="text-truncate">I have the photos that you ordered last month, how
-                                        would you like them sent to you?</div>
+                                        would you like them sent to you?
+                                    </div>
                                     <div class="small text-gray-500">Jae Chun · 1d</div>
                                 </div>
                             </a>
@@ -328,7 +380,8 @@
                                 </div>
                                 <div>
                                     <div class="text-truncate">Last month's report looks great, I am very happy with
-                                        the progress so far, keep up the good work!</div>
+                                        the progress so far, keep up the good work!
+                                    </div>
                                     <div class="small text-gray-500">Morgan Alvarez · 2d</div>
                                 </div>
                             </a>
@@ -340,7 +393,8 @@
                                 </div>
                                 <div>
                                     <div class="text-truncate">Am I a good boy? The reason I ask is because someone
-                                        told me that people say this to all dogs, even if they aren't good...</div>
+                                        told me that people say this to all dogs, even if they aren't good...
+                                    </div>
                                     <div class="small text-gray-500">Chicken the Dog · 2w</div>
                                 </div>
                             </a>
@@ -393,7 +447,7 @@
                 <!-- Page Heading -->
                 <div class="d-sm-flex align-items-center justify-content-between mb-4">
                     <h1 class="h3 mb-0 text-gray-800">Agregar Nuevo <span
-                            class="badge badge-pill badge-warning">1234</span></h1>
+                            class="badge badge-pill badge-orange">1234</span></h1>
                 </div>
 
                 <!-- Content Row -->
@@ -406,18 +460,17 @@
                     <!-- Content Column -->
                     <div class="col-lg-12 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Client Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Cliente</h6>
+                                <h6 class="m-0 font-weight-bold text-darky">Cliente</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
                                     <div class="form-group form-combobox">
-                                        <label>Cliente</label>
-                                        <select class="form-control col-sm-6 mb-3 "
-                                                id="exampleInputEmail2we" placeholder="Marca">
-                                            <option></option>
+                                        <select class="form-control col-sm-12 mb-3 "
+                                                id="cliente">
+                                            <option selected disabled value="">Cliente</option>
                                             <option>Ana</option>
                                             <option>Afirme</option>
                                             <option>Axa</option>
@@ -432,18 +485,18 @@
                     <!-- Content Column -->
                     <div class="col-lg-12 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Unidad_grua Card - SOLO VISIBLE EN FUNCION EDITAR -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Unidad</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Unidad</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
 
                                     <div class="form-group form-combobox">
-                                        <select class="form-control col-sm-6 mb-3 "
-                                                id="exampleInputEmail2we">
-                                            <option></option>
+                                        <select class="form-control col-sm-12 mb-3 "
+                                                id="unidad">
+                                            <option selected disabled value="">Unidad</option>
                                             <option>G1</option>
                                             <option>G2</option>
                                             <option>G3</option>
@@ -459,10 +512,10 @@
                     <!-- Content Column -->
                     <div class="col-lg-6 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Vehicle Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Vehículo</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Vehículo</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
@@ -501,33 +554,28 @@
                     <!-- Content Column -->
                     <div class="col-lg-6 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Datos_aseguradora extras Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Datos</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Datos de Aseguradora</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
                                     <div class="form-group row">
-                                        <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <div class="col-sm-12">
                                             <input type="text" class="form-control form-control-user"
-                                                   id="exampleFirstName"
-                                                   placeholder="Folio">
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <input type="text" class="form-control form-control-user"
-                                                   id="exampleLastName"
+                                                   id="reporte"
                                                    placeholder="Reporte">
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
-                                            <input type="password" class="form-control form-control-user"
-                                                   id="exampleInputPassword" placeholder="Siniestro">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="siniestro" placeholder="Siniestro">
                                         </div>
                                         <div class="col-sm-6">
-                                            <input type="password" class="form-control form-control-user"
-                                                   id="exampleRepeatPassword" placeholder="Póliza">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="poliza" placeholder="Póliza">
                                         </div>
                                     </div>
                                 </form>
@@ -539,29 +587,29 @@
                     <!-- Content Column -->
                     <div class="col-lg-6 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Datos extras-nombres Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Datos Extras</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Datos Extras (Nombres)</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
                                             <input type="text" class="form-control form-control-user"
-                                                   id="exampleFirstName"
+                                                   id="nombreCabinero"
                                                    placeholder="Nombre del Cabinero">
                                         </div>
                                         <div class="col-sm-6">
                                             <input type="text" class="form-control form-control-user"
-                                                   id="exampleLastName"
+                                                   id="nombreAsegurado"
                                                    placeholder="Nombre del Asegurado">
                                         </div>
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-12 mb-3 mb-sm-0">
-                                            <input type="password" class="form-control form-control-user"
-                                                   id="exampleInputPassword" placeholder="Nombre del Ajustador">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="nombreAjustador" placeholder="Nombre del Ajustador">
                                         </div>
 
                                     </div>
@@ -573,17 +621,17 @@
                     <!-- Content Column -->
                     <div class="col-lg-6 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Desplazamiento Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Desplazamiento</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Desplazamiento</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-12 mb-3 mb-sm-0">
                                             <input type="text" class="form-control form-control-user"
-                                                   id="exampleFirstName"
+                                                   id="ubicacion"
                                                    placeholder="Ubicación">
                                         </div>
 
@@ -591,8 +639,8 @@
                                     <div class="form-group row">
 
                                         <div class="col-sm-12 mb-3 mb-sm-0">
-                                            <input type="password" class="form-control form-control-user"
-                                                   id="exampleRepeatPassword" placeholder="Destino">
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="destino" placeholder="Destino">
                                         </div>
                                     </div>
                                 </form>
@@ -603,23 +651,170 @@
                     <!-- Content Column -->
                     <div class="col-lg-6 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Tipo de servicio Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Tipo de Servicio</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Cotizador</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
 
-                                    <div class="form-group form-combobox">
-                                        <select class="form-control col-sm-12 mb-3 "
-                                                id="exampleInputEmail2we">
-                                            <option></option>
-                                            <option>Asistencia</option>
-                                            <option>Traslado</option>
-                                            <option>Siniestro</option>
-                                            <option>Foraneo</option>
-                                        </select>
+                                    <div class="form-row">
+                                        <div class="col-md-4 mb-4">
+                                            <select class="custom-select" id="tipoServicio" required>
+                                                <option selected disabled value="">Tipo de Servicio</option>
+                                                <option>Traslado</option>
+                                                <option>Asistencia</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <select class="custom-select" id="tipoVehiculo" required>
+                                                <option selected disabled value="">Tipo de vehículo</option>
+                                                <option>A</option>
+                                                <option>B</option>
+                                                <option>C</option>
+                                                <option>D o E</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4 mb-4">
+                                            <select class="custom-select" id="plano" required>
+                                                <option selected disabled value="">Plano</option>
+                                                <option>A</option>
+                                                <option>B</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchkmExcedentes" data-toggle="collapse"
+                                                       href="#kmExcedentes" role="button" aria-expanded="false"
+                                                       aria-controls="kmExcedentes">
+
+                                                <label class="custom-control-label" for="switchkmExcedentes">Kilometraje
+                                                    excedente</label>
+
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="kmExcedentes">
+                                                <input type="number" class="custom-select custom-select-sm"
+                                                       id="kmExcedentes"
+                                                       placeholder="Número de kilometros excedentes" min="1">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchManiobras" data-toggle="collapse"
+                                                       href="#maniobras" role="button" aria-expanded="false"
+                                                       aria-controls="maniobras">
+                                                <label class="custom-control-label"
+                                                       for="switchManiobras">Maniobras</label>
+
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="maniobras">
+                                                <input type="number" class="custom-select custom-select-sm"
+                                                       id="maniobras"
+                                                       placeholder="Número de maniobras" min="1">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchTiempoEspera" data-toggle="collapse"
+                                                       href="#tiempoEspera" role="button" aria-expanded="false"
+                                                       aria-controls="tiempoEspera">
+                                                <label class="custom-control-label" for="switchTiempoEspera">Tiempo de
+                                                    espera</label>
+
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="tiempoEspera">
+                                                <input type="number" class="custom-select custom-select-sm"
+                                                       id="tiempoEspera"
+                                                       placeholder="Horas de espera" min="1">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchDolly" data-toggle="collapse"
+                                                       href="#dolly" role="button" aria-expanded="false"
+                                                       aria-controls="dolly">
+                                                <label class="custom-control-label" for="switchDolly">Dolly</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchCargaExtra" data-toggle="collapse"
+                                                       href="#cargaExtra" role="button" aria-expanded="false"
+                                                       aria-controls="cargaExtra">
+                                                <label class="custom-control-label" for="switchCargaExtra">Carga
+                                                    Extra</label>
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="cargaExtra">
+                                                <input type="number" class="custom-select custom-select-sm"
+                                                       id="cargaExtra"
+                                                       placeholder="Kg de carga extra" min="1">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchBlindaje" data-toggle="collapse"
+                                                       href="#blindaje" role="button" aria-expanded="false"
+                                                       aria-controls="blindaje">
+                                                <label class="custom-control-label"
+                                                       for="switchBlindaje">Blindaje</label>
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="blindaje">
+                                                <select class="custom-select custom-select-sm" id="blindaje">
+                                                    <option selected disabled value="">Nivel de blindaje</option>
+                                                    <option>1-3</option>
+                                                    <option>4-7</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchRescateSotano" data-toggle="collapse"
+                                                       href="#rescateSotano" role="button" aria-expanded="false"
+                                                       aria-controls="rescateSotano">
+                                                <label class="custom-control-label" for="switchRescateSotano">Rescate en
+                                                    sotano</label>
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="rescateSotano">
+                                                <input type="number" class="custom-select custom-select-sm"
+                                                       id="rescateSotano"
+                                                       placeholder="Número de pisos" min="1">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-row d-flex justify-content-between mb-1">
+                                            <div class="custom-control custom-switch">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="switchResguardo" data-toggle="collapse"
+                                                       href="#resguardo" role="button" aria-expanded="false"
+                                                       aria-controls="resguardo">
+                                                <label class="custom-control-label"
+                                                       for="switchResguardo">Resguardo</label>
+                                            </div>
+                                            <div class="col-md-6 mb-6 collapse" id="resguardo">
+                                                <input type="number" class="custom-select custom-select-sm"
+                                                       id="resguardo"
+                                                       placeholder="Días de resguardo" min="1">
+                                            </div>
+                                        </div>
+
                                     </div>
 
                                 </form>
@@ -631,74 +826,149 @@
                     <!-- Content Column -->
                     <div class="col-lg-6 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Cotizacion Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Cotización</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Cotización</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
-                                    <div class="input-group row col-sm-6 mb-3 ">
+
+                                    <div class="form-group row col-sm-6 mb-1">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text">$</span>
+                                            <label class="col-form-label col-form-label-sm" for="Amount_servicio">Servicio</label>
                                         </div>
-                                        <input type="text" class="form-control" aria-label="Amount"
-                                               placeholder="Servicio">
-
-                                        <div class="input-group-append">
-                                            <span class="input-group-text">.00</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group row col-sm-6 mb-3 ">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">$</span>
-                                        </div>
-                                        <input type="text" class="form-control" aria-label="Amount"
-                                               placeholder="Kilometraje">
-
-                                        <div class="input-group-append">
-                                            <span class="input-group-text">.00</span>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="input-group row col-sm-6 mb-3 ">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">$</span>
-                                        </div>
-                                        <input type="text" class="form-control" aria-label="Amount"
-                                               placeholder="Maniobras">
-
-                                        <div class="input-group-append">
-                                            <span class="input-group-text">.00</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group row col-sm-6 mb-3 ">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">$</span>
-                                        </div>
-                                        <input type="text" class="form-control" aria-label="Amount"
-                                               placeholder="Extras (Describir en Comentarios)">
-
-                                        <div class="input-group-append">
-                                            <span class="input-group-text">.00</span>
-                                        </div>
-                                    </div>
-
-                                    <div class="input-group row col-sm-6 mb-3 ">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text">$</span>
-                                        </div>
-                                        <input type="text" class="form-control" aria-label="Amount" placeholder="Total"
+                                        <input type="text" class="form-control form-control-sm" id="Amount_servicio"
+                                               aria-label="Amount" placeholder="$"
                                                disabled>
                                         <div class="input-group-append">
-                                            <span class="input-group-text">.00</span>
                                         </div>
                                     </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="kmExcedentes">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_kilometraje">Kilometraje
+                                                excedente</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_kilometraje"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="maniobras">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_maniobras">Maniobras</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_maniobras"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="tiempoEspera">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_tiempo">Tiempo
+                                                de espera</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_tiempo"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="dolly">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm"
+                                                   for="Amount_dolly">Dolly</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_dolly"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="cargaExtra">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_carga">Carga
+                                                extra</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_carga"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="blindaje">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_blindaje">Blindaje</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_blindaje"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="rescateSotano">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_rescate">Rescate
+                                                en sotano</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_rescate"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1 collapse" id="resguardo">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_resguardo">Resguardo</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_resguardo"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm" for="Amount_extras">Extras
+                                                (Especificar en comentarios)</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm" id="Amount_extras"
+                                               aria-label="Amount" placeholder="$">
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row col-sm-6 mb-1">
+                                        <div class="input-group-prepend">
+                                            <label class="col-form-label col-form-label-sm"
+                                                   for="Amount_total">Total</label>
+                                        </div>
+                                        <input type="text" class="form-control form-control-sm " id="Amount_total"
+                                               aria-label="Amount" placeholder="$"
+                                               disabled>
+                                        <div class="input-group-append">
+                                        </div>
+                                    </div>
+
                                 </form>
                             </div>
+
+                            <div class="card-footer alert-danger">
+                                Recuerda mencionar que los costos son MÁS IVA
+                            </div>
+
+
                         </div>
 
                     </div>
@@ -706,10 +976,10 @@
                     <!-- Content Column -->
                     <div class="col-lg-12 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Comments Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Comentarios</h6>
+                                <h6 class="m-0 font-weight-bold  text-dark">Comentarios</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
@@ -729,10 +999,10 @@
                     <!-- Content Column -->
                     <div class="col-lg-12 mb-0">
 
-                        <!-- Project Card Example -->
+                        <!-- Times Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Tiempos</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Tiempos</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
@@ -756,9 +1026,9 @@
 
                                         </div>
                                         <div class="col-sm-3 mb-3 mb-sm-0">
-                                            <label>Término</label>
+                                            <label id="termino">Término</label>
                                             <input type="datetime-local" class="form-control form-control-user"
-                                                   value="28/03/2022">
+                                                   value="28/03/2022" for="termino">
 
                                         </div>
 
@@ -775,7 +1045,7 @@
                         <!-- IMAGENES Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Fotos</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Fotos</h6>
                             </div>
                             <div class="card-body">
 
@@ -804,9 +1074,9 @@
                                 </div>
                             </div>
                             <div class="card-footer">
-                                <div class="mb-3">
-                                    <input type="file" id="inputGroupFile03"
-                                           aria-describedby="inputGroupFileAddon03" aria-label="Upload" multiple>
+                                <div class="mb-3 p-2 alert-secondary">
+                                    <input class="ImageUpload" type="file" id="ImageUpload" name="imageUpload"
+                                           aria-describedby="ImageUpload" aria-label="imageUpload" multiple>
                                 </div>
                             </div>
 
@@ -826,7 +1096,7 @@
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    <img class="card-img"
+                                    <img class="card-img" alt="img"
                                          src="https://www.redeszone.net/app/uploads-redeszone.net/2021/12/vulnerabilidad-google-chrome.jpg">
                                 </div>
                                 <div class="modal-footer">
@@ -843,44 +1113,45 @@
                         <!-- Project Card Example -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">Administración</h6>
+                                <h6 class="m-0 font-weight-bold text-dark">Administración</h6>
                             </div>
                             <div class="card-body">
                                 <div class="col-sm-6 mb-3">
-                                <select class="form-control form-control-user">
-                                    <option>Pendiente</option>
-                                    <option>Sin vale</option>
-                                    <option>Incobrable</option>
-                                    <option>Cortesía</option>
-                                    <option>Pagado en efectivo</option>
-                                </select>
+                                    <select class="custom-select">
+                                        <option>Pendiente</option>
+                                        <option>Sin vale</option>
+                                        <option>Incobrable</option>
+                                        <option>Cortesía</option>
+                                        <option>Pagado en efectivo</option>
+                                    </select>
                                 </div>
                                 <div class="col-sm-12 mb-3">
                                     <a href="#">Fact123123</a>
                                 </div>
 
                                 <div class="col-sm-12 mb-3 mb-sm-0">
-                                    <h>Estátus:</h>
-                                    <span class="badge badge-primary">Pendiente</span><span
-                                        class="badge badge-danger">Sin vale</span><span
-                                        class="badge badge-success">Pagado en Efectivo</span><span
-                                        class="badge badge-dark">Incobrable</span><span
-                                        class="badge badge-info">Cortesía</span>
-                                    <span class="badge badge-warning">Facturado</span>
-                                    <span class="badge badge-success">Factura Pagada</span>
-                                    <span class="badge badge-secondary">NULL</span>
+                                    <p>Estátus:
+                                        <span class="badge badge-primary">Pendiente</span><span
+                                                class="badge badge-danger">Sin vale</span><span
+                                                class="badge badge-success">Pagado en Efectivo</span><span
+                                                class="badge badge-dark">Incobrable</span><span
+                                                class="badge badge-info">Cortesía</span>
+                                        <span class="badge badge-warning">Facturado</span>
+                                        <span class="badge badge-success">Factura Pagada</span>
+                                        <span class="badge badge-secondary">NULL</span>
+                                    </p>
                                 </div>
                                 <div class="col-sm-12 mb-3 mb-sm-0">
-                                    <h>Fecha de factura:</h>
-                                    <span class="badge badge-secondary">23/02/2021</span>
+                                    <p>Fecha de factura:
+                                        <span class="badge badge-secondary">23/02/2021</span></p>
                                 </div>
                                 <div class="col-sm-12 mb-3 mb-sm-0">
-                                    <h>Fecha de pago fact:</h>
-                                    <span class="badge badge-secondary">23/02/2021</span>
+                                    <p>Fecha de pago fact:
+                                        <span class="badge badge-secondary">23/02/2021</span></p>
                                 </div>
                                 <div class="col-sm-12 mb-3 mb-sm-0">
-                                    <h>Fecha de pago efe:</h>
-                                    <span class="badge badge-secondary">23/02/2021 (modificable aqui)</span>
+                                    <p>Fecha de pago efectivo:
+                                        <span class="badge badge-secondary">23/02/2021 (modificable aqui)</span></p>
                                 </div>
 
                             </div>
@@ -910,7 +1181,7 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                         <div class="copyright text-center my-auto">
-                            <span>Copyright &copy; Your Website 2021</span>
+                            <span>Copyright &copy; Grúas 24-7 S.A. de C.V. 2024</span>
                         </div>
                     </div>
                 </footer>
@@ -921,49 +1192,49 @@
 
         </div>
         <!-- End of Page Wrapper -->
+    </div>
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top">
-            <i class="fas fa-angle-up"></i>
-        </a>
-
-        <!-- Logout Modal-->
-        <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-             aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
-                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                        <a class="btn btn-primary" href="login.html">Logout</a>
-                    </div>
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="login.html">Logout</a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Bootstrap core JavaScript-->
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-        <!-- Core plugin JavaScript-->
-        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Core plugin JavaScript-->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-        <!-- Custom scripts for all pages-->
-        <script src="js/sb-admin-2.min.js"></script>
+    <!-- Custom scripts for all pages-->
+    <script src="js/sb-admin-2.min.js"></script>
 
-        <!-- Page level plugins -->
-        <script src="vendor/chart.js/Chart.min.js"></script>
+    <!-- Page level plugins -->
+    <script src="vendor/chart.js/Chart.min.js"></script>
 
-        <!-- Page level custom scripts -->
-        <script src="js/demo/chart-area-demo.js"></script>
-        <script src="js/demo/chart-pie-demo.js"></script>
-
+    <!-- Page level custom scripts -->
+    <script src="js/demo/chart-area-demo.js"></script>
+    <script src="js/demo/chart-pie-demo.js"></script>
+</div>
 </body>
 
 </html>
