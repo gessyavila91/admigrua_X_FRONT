@@ -468,9 +468,10 @@
                             <div class="card-body">
                                 <form class="user">
                                     <div class="form-group form-combobox">
+                                        <label>Cliente</label>
                                         <select class="form-control col-sm-12 mb-3 "
                                                 id="cliente">
-                                            <option selected disabled value="">Cliente</option>
+                                            <option selected disabled value=""></option>
                                             <option>Ana</option>
                                             <option>Afirme</option>
                                             <option>Axa</option>
@@ -518,11 +519,11 @@
                             </div>
                             <div class="card-body">
                                 <form class="user">
-
                                     <div class="form-group form-combobox">
+                                        <label>Unidad</label>
                                         <select class="form-control col-sm-12 mb-3 "
                                                 id="unidad">
-                                            <option selected disabled value="">Unidad</option>
+                                            <option selected disabled value=""></option>
                                             <option>G1</option>
                                             <option>G2</option>
                                             <option>G3</option>
@@ -547,11 +548,13 @@
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <label>Marca</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="marca"
                                                    placeholder="Marca">
                                         </div>
                                         <div class="col-sm-6">
+                                            <label>Sub Marca</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="submarca"
                                                    placeholder="Sub Marca">
@@ -559,14 +562,17 @@
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-4 mb-3 mb-sm-0">
-                                            <input type="text" class="form-control form-control-user"
-                                                   id="color" placeholder="Color">
-                                        </div>
-                                        <div class="col-sm-4 mb-3 mb-sm-0">
+                                            <label>Placas</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="placas" placeholder="Placas">
                                         </div>
+                                        <div class="col-sm-4 mb-3 mb-sm-0">
+                                            <label>Color</label>
+                                            <input type="text" class="form-control form-control-user"
+                                                   id="color" placeholder="Color">
+                                        </div>
                                         <div class="col-sm-4">
+                                            <label>Modelo</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="modelo" placeholder="Modelo">
                                         </div>
@@ -589,6 +595,7 @@
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-12">
+                                            <label>Reporte</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="reporte"
                                                    placeholder="Reporte">
@@ -596,10 +603,12 @@
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <label>Siniestro</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="siniestro" placeholder="Siniestro">
                                         </div>
                                         <div class="col-sm-6">
+                                            <label>Póliza</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="poliza" placeholder="Póliza">
                                         </div>
@@ -622,11 +631,13 @@
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-6 mb-3 mb-sm-0">
+                                            <label>Nombre del cabinero</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="nombreCabinero"
                                                    placeholder="Nombre del Cabinero">
                                         </div>
                                         <div class="col-sm-6">
+                                            <label>Nombre del asegurado</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="nombreAsegurado"
                                                    placeholder="Nombre del Asegurado">
@@ -634,6 +645,7 @@
                                     </div>
                                     <div class="form-group row">
                                         <div class="col-sm-12 mb-3 mb-sm-0">
+                                            <label>Nombre del ajustador</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="nombreAjustador" placeholder="Nombre del Ajustador">
                                         </div>
@@ -656,15 +668,15 @@
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-12 mb-3 mb-sm-0">
+                                            <label>Ubicación</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="ubicacion"
                                                    placeholder="Ubicación">
                                         </div>
-
                                     </div>
                                     <div class="form-group row">
-
                                         <div class="col-sm-12 mb-3 mb-sm-0">
+                                            <label>Destino</label>
                                             <input type="text" class="form-control form-control-user"
                                                    id="destino" placeholder="Destino">
                                         </div>
@@ -688,6 +700,7 @@
                                     <div class="form-row mb-3">
 
                                         <div class="col-md-6 mb-6">
+                                            <label>Tipo de vehículo</label>
                                             <select class="custom-select" id="tipoVehiculo" required>
                                                 <option selected disabled value="">Tipo de vehículo</option>
                                                 <option>A</option>
@@ -698,6 +711,7 @@
                                             </select>
                                         </div>
                                         <div class="col-md-6 mb-6">
+                                            <label>Plano</label>
                                             <select class="custom-select" id="plano" required>
                                                 <option selected disabled value="">Plano</option>
                                                 <option>A</option>
@@ -1000,13 +1014,14 @@
                         <!-- Comments Card -->
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold  text-dark">Comentarios</h6>
+                                <h6 class="m-0 font-weight-bold  text-dark">Extras</h6>
                             </div>
                             <div class="card-body">
                                 <form class="user">
                                     <div class="form-group row">
                                         <div class="col-sm-12 mb-3 mb-sm-0">
-                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                            <label>Comentarios</label>
+                                            <textarea class="form-control" id="comentarios"
                                                       rows="3"></textarea>
                                         </div>
 
@@ -1138,6 +1153,7 @@
                             </div>
                             <div class="card-body">
                                 <div class="col-sm-6 mb-3">
+                                    <label>Estatus</label>
                                     <select class="custom-select">
                                         <option>Pendiente</option>
                                         <option>Sin vale</option>
@@ -1151,7 +1167,7 @@
                                 </div>
 
                                 <div class="col-sm-12 mb-3 mb-sm-0">
-                                    <p>Estátus:
+                                    <p>Estatus:
                                         <span class="badge badge-primary">Pendiente</span><span
                                                 class="badge badge-danger">Sin vale</span><span
                                                 class="badge badge-success">Pagado en Efectivo</span><span
