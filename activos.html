@@ -63,6 +63,7 @@
 
     <!-- Custom styles for this page -->
     <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="progressbar/progressbar.css">
 
 </head>
 
@@ -427,6 +428,7 @@
                                 <thead>
                                 <tr>
                                     <th>Estatus</th>
+                                    <th>Timer</th>
                                     <th>ID</th>
                                     <th>Cliente</th>
                                     <th>Unidad</th>
@@ -452,6 +454,11 @@
                                 <tbody>
                                 <tr>
                                     <td><div class="btn btn-success">Capturado</div></td>
+                                    <td><div class="main-wrapper">
+                                        <div class="progress-wrapper"><b></b>
+                                            <div class="progres-bar"></div>
+                                        </div>
+                                    </div></td>
                                     <td>15968</td>
                                     <td>AFIRME</td>
                                     <td>G3</td>
@@ -547,7 +554,7 @@
 
 <!-- Page level custom scripts -->
 <script src="js/demo/datatables-demo.js"></script>
-
+<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script><script  src="progressbar/progressbar.js"></script>
 
 </body>
 
